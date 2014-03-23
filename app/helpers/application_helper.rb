@@ -6,10 +6,10 @@ module ApplicationHelper
 		
 		base_title if page_title.empty?
 		
-#		if page_title.empty?
-#			base_title
-#		else
-		"#{base_title} | #{page_title}"
-#		end
+		if page_title.empty?
+			base_title
+		else
+			"#{base_title} | #{page_title}"
+		end
 	end
 end
